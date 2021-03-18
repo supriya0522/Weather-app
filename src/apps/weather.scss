@@ -1,0 +1,96 @@
+
+$myColor: red;
+$very-warm: #FF8500;
+$warm: #ffc600;
+$normal: #94AF10;
+$cold: #06799F;
+$very-cold: #233884;
+
+.very-warm { color: $very-warm; }
+.warm { color: $warm; }
+.normal { color: $normal; }
+.cold { color: $cold; }
+.very-cold { color: $very-cold; }
+
+.h1 {
+  color: $myColor;
+}
+.main-container {
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.header-card {
+  width: 60%;
+  background: lightgrey;
+}
+.header {
+  font-size: 44px;
+  font-weight: bold;
+  padding: 25px 45px;
+  text-align: center;
+}
+.cityName {
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+  text-align: center;
+}
+.weather-xards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.weather-card {
+  width: 170px;
+  // height: 210px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 15px;
+  margin: 5px 12px;
+  cursor: pointer;
+}
+.day-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 2px 0px;
+}
+.date-month-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: grey;
+  text-align: center;
+  margin: 2px 0px;
+}
+.temperature-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin: 4px 0px;
+}
+.sky-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: grayscale($color: #000000b9);
+  text-align: center;
+  margin: 4px 0px;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  padding: 10px 0px;
+ .wi {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+  }
+}

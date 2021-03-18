@@ -1,0 +1,79 @@
+
+$myColor: red;
+$very-warm: #FF8500;
+$warm: #ffc600;
+$normal: #94AF10;
+$cold: #06799F;
+$very-cold: #233884;
+
+.very-warm { color: $very-warm; }
+.warm { color: $warm; }
+.normal { color: $normal; }
+.cold { color: $cold; }
+.very-cold { color: $very-cold; }
+
+.details-container {
+    display: inline-block;
+    padding-top: 15px;
+    justify-content: center;
+}
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: rgb(23, 234, 217);
+    // height: 80%;
+    justify-content: center;
+}
+.location {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 1px;
+}
+.date {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+.temperature {
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  padding: 15px 18px;
+}
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weather-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    padding-bottom: 10px;
+   .wi {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 3em;
+    }
+  }
+.sky-description {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0px;
+}
+.temp-description {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0px;
+}
+.grapContainer {
+    display: block;
+    // justify-content: center;
+    // align-self: center;
+}
